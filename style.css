@@ -391,3 +391,116 @@ nav .fas{
     margin-top: -40px;
     display: block;
 }
+
+/*--------------------Internship card styles--------------------*/
+#internships .internship-card{
+    background: linear-gradient(180deg, rgba(12,12,12,0.95), rgba(20,20,20,0.95));
+    border-radius: 18px;
+    padding: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    border: 1px solid rgba(255,0,79,0.06);
+}
+
+#internships .internship-info{
+    flex: 1;
+}
+
+#internships .internship-meta{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.internship-title{
+    font-size: 36px;
+    margin: 0 0 6px 0;
+    color: #fff;
+    line-height: 1.05;
+}
+
+.internship-dates{
+    color: #bfbfbf;
+    margin-bottom: 18px;
+}
+
+.internship-desc{
+    color: #d1d1d1;
+    line-height: 1.8;
+}
+
+.tech-list{
+    margin-top: 20px;
+}
+.tech-list a{
+    display: inline-block;
+    margin-right: 12px;
+    margin-bottom: 8px;
+    color: #ff004f;
+    background: rgba(255,0,79,0.06);
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.card-actions{
+    margin-top: 26px;
+}
+.card-actions .btn-primary{
+    background: #ff004f;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.card-actions .btn-outline{
+    background: transparent;
+    color: #ff004f;
+    border: 2px solid #ff004f;
+    padding: 10px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.internship-badges{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-end;
+}
+.badge{
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: #ff004f;
+    color: #fff;
+    font-weight: 600;
+}
+.badge-year{
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: #262626;
+    color: #fff;
+}
+
+@media only screen and (max-width: 900px){
+    #internships .internship-card{
+        flex-direction: column;
+        padding: 24px;
+    }
+    .internship-title{
+        font-size: 26px;
+    }
+    .internship-badges{
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 12px;
+    }
+}
