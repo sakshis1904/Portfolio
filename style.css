@@ -402,6 +402,8 @@ nav .fas{
     justify-content: space-between;
     gap: 30px;
     border: 1px solid rgba(255,0,79,0.06);
+    transition: transform 0.45s ease, box-shadow 0.45s ease, border-color 0.45s ease;
+    will-change: transform, box-shadow;
 }
 
 #internships .internship-info{
@@ -488,6 +490,26 @@ nav .fas{
     border-radius: 999px;
     background: #262626;
     color: #fff;
+}
+
+/* Hover effect for internship card */
+#internships .internship-card:hover{
+    transform: translateY(-8px) scale(1.005);
+    box-shadow: 0 30px 80px rgba(0,0,0,0.55), 0 0 120px rgba(255,0,79,0.04);
+    border-color: rgba(255,0,79,0.12);
+}
+
+#internships .internship-card:hover .internship-title{
+    color: #ff004f;
+}
+
+#internships .internship-card .internship-badges{
+    transition: transform 0.35s ease, opacity 0.35s ease;
+}
+
+#internships .internship-card:hover .internship-badges{
+    transform: translateY(-6px);
+    opacity: 0.95;
 }
 
 @media only screen and (max-width: 900px){
