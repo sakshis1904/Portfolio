@@ -52,8 +52,8 @@ The goal is to keep it simple, fast, and visually appealing.
 
 ### 📬 Contact
 
-If you'd like to collaborate or connect:
-📧 Mail: sakshishrivastava190304@gmail.com
+If you'd like to collaborate or connect: </br>
+📧 Mail: sakshishrivastava190304@gmail.com </br>
 
 💼 LinkedIn: https://www.linkedin.com/in/sakshi-shrivastava19/
 
