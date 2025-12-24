@@ -9,7 +9,7 @@ This site showcases my work, skills, and the journey I’m building as a Full-St
 
 Click below to view my portfolio online:
 
-Live Demo: https://portfolio-p1va9n7p1-sakshi-shrivastavas-projects.vercel.app/
+Live Demo: https://portfolio-7798um87m-sakshi-shrivastavas-projects.vercel.app/
 
 </br>
 
