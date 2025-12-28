@@ -15,7 +15,7 @@ Live Demo: https://portfolio-7798um87m-sakshi-shrivastavas-projects.vercel.app/
 
 ### 🚀 About This Portfolio
 
-This portfolio is designed with a clean, modern UI to make my work easy to explore.
+This portfolio is designed with a clean and modern UI to make my work easy to explore.
 It includes:
 </br>
 
