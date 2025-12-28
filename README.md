@@ -35,7 +35,7 @@ The goal is to keep it simple, fast, and visually appealing.
 
 </br>
 
-### 🛠️ Tech Stack Used
+### 🛠️ Tech Stack Used to create Portfolio
 
 * Frontend: HTML, CSS, JavaScript
 
