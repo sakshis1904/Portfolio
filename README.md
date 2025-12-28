@@ -27,7 +27,7 @@ It includes:
 
 * Certifications
 
-* Tech stack
+* Tech stack I know
 
 * Contact section
 
